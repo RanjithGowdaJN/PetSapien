@@ -4,7 +4,7 @@ const FeaturesGrid = () => {
   const features = [
     "Automatic recalls based on breed + age",
     "24/7 appointment booking",
-    "Missed call capture",
+    "No more missed calls",
     "Emergency routing",
     "Refill + reminder workflows",
     "Insurance clarity support",

@@ -5,7 +5,7 @@ const HowItWorksSection = () => {
     {
       number: "01",
       title: "Identify who needs to return next",
-      description: "AI analyzes breed, age, care history, and schedules to determine optimal visit timing.",
+      description: "AI Veterinary Assistant analyzes breed, age, care history, and schedules to determine optimal visit timing.",
     },
     {
       number: "02",
