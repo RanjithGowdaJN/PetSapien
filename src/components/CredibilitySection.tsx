@@ -15,7 +15,7 @@ const CredibilitySection = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Clinics see significant increases in preventive visits, refill adherence, 
-            and client retention with AI-driven workflows.
+            and client retention with AI Veterinary Assistant workflows.
           </p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
