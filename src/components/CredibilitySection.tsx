@@ -18,20 +18,26 @@ const CredibilitySection = () => {
             and client retention with AI Veterinary Assistant workflows.
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {metrics.map((metric, index) => (
             <div 
               key={index} 
-              className="bg-metric-bg border border-border rounded-lg p-6 text-center"
+              className="bg-metric-bg border border-border rounded-lg p-8 text-center"
             >
-              <div className="text-4xl font-bold text-primary mb-2">
+              <div className="text-5xl font-bold text-primary mb-3">
                 {metric.value}
               </div>
-              <div className="text-sm text-muted-foreground">
+              <div className="text-xs text-muted-foreground">
                 {metric.label}
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center items-center gap-12 mt-16 flex-wrap opacity-60">
+          <div className="text-xl font-semibold text-muted-foreground">Clinic Logo 1</div>
+          <div className="text-xl font-semibold text-muted-foreground">Clinic Logo 2</div>
+          <div className="text-xl font-semibold text-muted-foreground">Clinic Logo 3</div>
+          <div className="text-xl font-semibold text-muted-foreground">Clinic Logo 4</div>
         </div>
       </div>
     </section>
