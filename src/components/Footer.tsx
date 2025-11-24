@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-xl font-semibold text-foreground">
-            Pawsapien
+            PawSapien
           </div>
           <nav className="flex flex-wrap justify-center gap-6 text-sm text-muted-foreground">
             <a href="#about" className="hover:text-foreground transition-colors">About</a>
@@ -15,7 +15,7 @@ const Footer = () => {
           </nav>
         </div>
         <div className="text-center mt-8 text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Pawsapien. All rights reserved.
+          © {new Date().getFullYear()} PawSapien. All rights reserved.
         </div>
       </div>
     </footer>

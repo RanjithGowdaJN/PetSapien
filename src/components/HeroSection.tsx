@@ -10,11 +10,14 @@ const HeroSection = () => {
         style={{ backgroundImage: `url(${heroBackground})` }}
       />
       <div className="container mx-auto max-w-[780px] relative z-10">
-        <div className="space-y-10 text-center">
-          <h1 className="text-5xl lg:text-6xl font-bold text-foreground leading-[1.2]">
-            Increase your revenue by 20–40% with an AI Veterinary Assistant
+        <div className="space-y-8 text-center">
+          <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-[1.3]">
+            Your veterinary clinic could earn $50,000+ more this year
           </h1>
-          <div className="flex flex-col sm:flex-row gap-4 pt-10 justify-center">
+          <p className="text-xl text-muted-foreground max-w-[680px] mx-auto leading-relaxed">
+            Most clinics miss calls and follow-ups. Your AI Veterinary Assistant handles both.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
             <Button size="lg" variant="cta" className="gap-2">
               <Volume2 className="w-5 h-5" />
               Hear a sample call

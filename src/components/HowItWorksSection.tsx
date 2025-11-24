@@ -23,7 +23,7 @@ const HowItWorksSection = () => {
     <section id="how-it-works" className="py-20 px-6 bg-muted">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-foreground text-center mb-16">
-          How Pawsapien Fits Into Your Clinic
+          How PawSapien Fits Into Your Clinic
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step, index) => (
