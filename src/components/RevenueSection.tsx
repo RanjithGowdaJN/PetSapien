@@ -2,10 +2,10 @@ import { Check } from "lucide-react";
 
 const RevenueSection = () => {
   return (
-    <section className="py-16 px-6 bg-background">
+    <section id="revenue-section" className="py-16 px-6 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold text-foreground text-center mb-12">
-          How Pawsapien Increases Your Revenue
+        <h2 className="text-3xl font-bold text-foreground text-center mb-12">
+          How PawSapien AI Assistant Increases Your Revenue
         </h2>
         <div className="grid md:grid-cols-2 gap-12">
           {/* Left Column */}

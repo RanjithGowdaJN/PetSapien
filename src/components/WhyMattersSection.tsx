@@ -23,7 +23,7 @@ const WhyMattersSection = () => {
     <section className="py-20 px-6">
       <div className="container mx-auto">
         <h2 className="text-4xl font-bold text-foreground text-center mb-12">
-          Why Clinics Use Pawsapien
+          Why Clinics Use PawSapien
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {reasons.map((reason, index) => {
