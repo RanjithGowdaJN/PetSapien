@@ -1,77 +1,50 @@
-import { Check } from "lucide-react";
+import { PhoneOff, Calendar, TrendingUp } from "lucide-react";
 
 const RevenueSection = () => {
   return (
-    <section id="revenue-section" className="py-16 px-6 bg-background">
+    <section id="revenue-section" className="py-12 px-6 bg-background">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold text-foreground text-center mb-12">
-          How PawSapien AI Assistant Increases Your Revenue
+        <h2 className="text-3xl font-bold text-foreground text-center mb-10">
+          How Your Clinic Earns More With PawSapien
         </h2>
-        <div className="grid md:grid-cols-2 gap-12">
-          {/* Left Column */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-foreground mb-6">
-              Recover revenue you're losing today
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          {/* Block 1 */}
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="w-12 h-12 bg-healthcare-blue/10 rounded-full flex items-center justify-center">
+              <PhoneOff className="w-6 h-6 text-healthcare-blue" />
+            </div>
+            <h3 className="text-lg font-bold text-foreground">
+              Stop losing revenue
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">no more missed calls</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">emergency calls routed correctly</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">full appointment coverage</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">reduced front-desk overload</span>
-              </li>
-            </ul>
+            <p className="text-muted-foreground leading-relaxed">
+              Your AI Veterinary Assistant eliminates missed calls and routes emergencies instantly.
+            </p>
           </div>
 
-          {/* Right Column */}
-          <div className="space-y-6">
-            <h3 className="text-2xl font-semibold text-foreground mb-6">
-              Create new predictable revenue
+          {/* Block 2 */}
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="w-12 h-12 bg-healthcare-blue/10 rounded-full flex items-center justify-center">
+              <Calendar className="w-6 h-6 text-healthcare-blue" />
+            </div>
+            <h3 className="text-lg font-bold text-foreground">
+              Fill your schedule automatically
             </h3>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">proactive breed- & age-based recalls</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">AI reasoning persuades owners to return</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">higher preventive care compliance</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <div className="w-6 h-6 bg-success rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <Check className="w-4 h-4 text-white" />
-                </div>
-                <span className="text-lg text-foreground">more timely checkups & vaccinations</span>
-              </li>
-            </ul>
+            <p className="text-muted-foreground leading-relaxed">
+              Bookings, reschedules, cancellations and follow-ups are handled for you.
+            </p>
+          </div>
+
+          {/* Block 3 */}
+          <div className="flex flex-col items-center text-center space-y-3">
+            <div className="w-12 h-12 bg-healthcare-blue/10 rounded-full flex items-center justify-center">
+              <TrendingUp className="w-6 h-6 text-healthcare-blue" />
+            </div>
+            <h3 className="text-lg font-bold text-foreground">
+              Increase preventive visits
+            </h3>
+            <p className="text-muted-foreground leading-relaxed">
+              Breed- & age-timed recalls bring patients back at the right moment.
+            </p>
           </div>
         </div>
       </div>
