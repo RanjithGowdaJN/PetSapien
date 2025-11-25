@@ -14,7 +14,7 @@ const HeroSection = () => {
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-[1.3]">
             Your veterinary clinic could earn $50,000+ more this year
           </h1>
-          <p className="text-xl text-muted-foreground max-w-[680px] mx-auto leading-relaxed">
+          <p className="text-lg text-muted-foreground max-w-[780px] mx-auto leading-[1.6]">
             Most clinics miss calls and follow-ups. Your AI Veterinary Assistant handles both.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
