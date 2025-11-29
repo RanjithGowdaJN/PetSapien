@@ -27,9 +27,9 @@ const HeroSection = () => {
   ];
 
   return (
-    <section className="pt-32 pb-20 px-6 bg-gradient-to-b from-muted/40 to-background">
+    <section className="pt-32 pb-32 px-6 bg-gradient-to-b from-muted/40 to-background min-h-[calc(100vh-80px)]">
       <div className="container mx-auto max-w-5xl">
-        <div className="space-y-8 text-center">
+        <div className="space-y-10 text-center">
           {/* Headline */}
           <h1 className="text-4xl lg:text-5xl font-bold text-foreground leading-[1.2]">
             Your veterinary clinic could earn{" "}
@@ -43,7 +43,7 @@ const HeroSection = () => {
           </p>
 
           {/* Value Props - 3 inline cards */}
-          <div className="flex flex-col md:flex-row justify-center gap-4 pt-4 max-w-4xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-center gap-4 pt-6 max-w-4xl mx-auto">
             {valueProps.map((prop, index) => (
               <div
                 key={index}
@@ -61,7 +61,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-6 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 pt-10 justify-center">
             <Button size="lg" variant="cta" className="gap-2 px-8">
               <Volume2 className="w-5 h-5" />
               Hear a sample call
